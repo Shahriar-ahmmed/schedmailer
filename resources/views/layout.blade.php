@@ -83,8 +83,8 @@
                                 <div class="col-sm-4">
                                     <p class="contacts"><strong>CONTACTS</strong><br>
                                         Email: support@schedmailer.com<br>
-                                        Phone: +880 <br>
-                                        Fax: +880 </p>
+                                        Phone: +88  01714755033 <br>
+                                        Fax: +880 01520082048  </p>
                                 </div>
                                 <div class="col-sm-4">
                                     <p class="mbr-contacts__text">
