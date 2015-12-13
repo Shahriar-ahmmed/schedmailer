@@ -82,9 +82,9 @@
                                 </div>
                                 <div class="col-sm-4">
                                     <p class="contacts"><strong>CONTACTS</strong><br>
-                                        Email: support@mobirise.com<br>
-                                        Phone: +1 (0) 000 0000 001<br>
-                                        Fax: +1 (0) 000 0000 002</p>
+                                        Email: support@schedmailer.com<br>
+                                        Phone: +880 <br>
+                                        Fax: +880 </p>
                                 </div>
                                 <div class="col-sm-4">
                                     <p class="mbr-contacts__text">
