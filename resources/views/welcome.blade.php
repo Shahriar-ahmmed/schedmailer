@@ -17,12 +17,12 @@
         {!! Form::open(array('url' => 'signup','class'=>'form-inline')) !!}
         <div class="form-group">
             {!! Form::label('first_name', 'First Name',array('class' => 'form-label')) !!}
-            {!! Form::text('first_name',null,array('class' => 'form-control')) !!}
+            {!! Form::text('first_name',null,array('class' => 'form-control', 'placeholder' => 'First Name')) !!}
         </div>
         <div class="clearfix"></div>
         <div class="form-group">
             {!! Form::label('last_name','Last Name',array('class' => 'form-label')) !!}
-            {!! Form::text('last_name',null,array('class' => 'form-control')) !!}
+            {!! Form::text('last_name',null,array('class' => 'form-control', 'placeholder' => 'Last Name')) !!}
         </div>
         <div class="clearfix"></div>
         <div class="form-group">
@@ -32,20 +32,25 @@
         <div class="clearfix"></div>
         <div class="form-group">
             {!! Form::label('gender','I Am',array('class' => 'form-label') ) !!}
-            {!! Form::checkbox('gender', 'Male',null,array('class' => 'form')) !!}
+            {!! Form::checkbox('genders', 'male',null,array('class' => 'form')) !!}
             {!! Form::label('gender','Male') !!}
-            {!! Form::checkbox('gender', 'Female',null,array('class' => 'form')) !!}
+            {!! Form::checkbox('genders', 'female',null,array('class' => 'form')) !!}
             {!! Form::label('gender','Female') !!}
         </div>
         <div class="clearfix"></div>
         <div class="form-group">
             {!! Form::label('email', 'E-Mail Address',array('class' => 'form-label')) !!}
-            {!! Form::text('email','', array('class' => 'form-control')) !!}
+            {!! Form::text('email','', array('class' => 'form-control email', 'placeholder' => 'E-Mail', 'rel' => 'popover','data-content' => 'Email must contain a-z@domain.com')) !!}
         </div>
         <div class="clearfix"></div>
         <div class="form-group">
             {!! Form::label('password', 'Password',array('class' => 'form-label')) !!}
-            {!! Form::password('password', array('class' => 'form-control')) !!}
+            {!! Form::password('password', array('class' => 'form-control', 'placeholder' => 'Password')) !!}
+        </div>
+        <div class="clearfix"></div>
+        <div class="form-group">
+            {!! Form::label('confirm_password', 'Confirm Password',array('class' => 'form-label')) !!}
+            {!! Form::password('confirm_password', array('class' => 'form-control', 'placeholder' => 'Confirm Password')) !!}
         </div>
         <div class="clearfix"></div>
         <div class="form-group">
